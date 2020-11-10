@@ -3,4 +3,4 @@ Page({
     onLoad(query) {
 
     }
-})
+});
