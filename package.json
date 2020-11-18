@@ -1,0 +1,19 @@
+{
+  "name": "daily-tools",
+  "version": "0.0.1",
+  "description": "mini app",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "miniapp"
+  ],
+  "author": "xesam",
+  "license": "MIT",
+  "dependencies": {
+    "miniapp": "0.0.1",
+    "miniapp-hook": "0.0.2",
+    "mini-app-states-view": "0.0.2",
+    "miniapp-compat": "0.0.1"
+  },
+  "devDependencies": {}
+}
