@@ -1,6 +1,6 @@
 <view>
     <view>
-        <slot></slot>
+        <text>{{title}}</text>
     </view>
     <view>
         <slot></slot>
