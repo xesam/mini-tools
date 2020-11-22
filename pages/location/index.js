@@ -10,14 +10,11 @@ Page({
             data: this.data.content
         });
     },
-    onTapQr(e) {
-        wx.scanCode({
-            success: res => {
+    onTapSync(e) {
+        wx.getLocation({
+            success(res) {
                 console.log(res);
-                this.setData({
-                    content: res.result
-                });
             }
-        })
+        });
     }
 });

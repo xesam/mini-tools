@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/scan/index"
+    "pages/scan/index",
+    "pages/unit/index",
+    "pages/number/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

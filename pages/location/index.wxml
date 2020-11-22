@@ -1,5 +1,5 @@
 <view>
     <textarea class="content" value="{{content}}"></textarea>
     <button class="act_copy" bind:tap="onTapCopy">复制内容</button>
-    <button class="act_scan" bind:tap="onTapQr">扫一扫</button>
+    <button class="act_scan" bind:tap="onTapSync">更新位置</button>
 </view>

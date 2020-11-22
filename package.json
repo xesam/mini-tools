@@ -10,7 +10,7 @@
   "author": "xesam",
   "license": "MIT",
   "dependencies": {
-    "miniapp": "0.0.1",
+    "@xesam/miniapp": "0.0.2",
     "miniapp-hook": "0.0.2",
     "mini-app-states-view": "0.0.2",
     "miniapp-compat": "0.0.1"
