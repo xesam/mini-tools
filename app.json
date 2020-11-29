@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/scan/index",
+    "pages/location/index",
     "pages/unit/index",
     "pages/number/index"
   ],

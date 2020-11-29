@@ -8,14 +8,24 @@ Page({
                         text: '扫一扫',
                         icon: '',
                         path: ''
+                    },
+                    {
+                        text: '坐标',
+                        icon: '',
+                        path: ''
                     }
                 ]
             },
             {
-                title: '常用',
+                title: '数字单位',
                 items: [
                     {
-                        text: '扫一扫',
+                        text: '大写数字',
+                        icon: '',
+                        path: ''
+                    },
+                    {
+                        text: '单位换算',
                         icon: '',
                         path: ''
                     }

@@ -1,9 +1,15 @@
 .content {
-    width: 90%;
-    height: 10em;
     margin: 0 auto;
     padding: 16rpx;
-    border: 1px solid #e4e4e4;
+}
+
+.scan_value{
+    display: block;
+    min-height: 10em;
+    padding: 16rpx;
+    word-wrap: break-word;
+    background: white;
+    border-radius: 4rpx;
 }
 
 .act_scan {

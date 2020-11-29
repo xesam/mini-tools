@@ -1,3 +1,9 @@
-<view>
-    <card wx:for="{{modules}}" title="{{item.title}}"></card>
-</view>
+<page>
+    <card wx:for="{{modules}}" title="{{item.title}}" wx:key="index">
+        <view>
+            <view wx:for="{{item.items}}" wx:for-item="mod" wx:key="text">
+                {{mod.text}}
+            </view>
+        </view>
+    </card>
+</page>

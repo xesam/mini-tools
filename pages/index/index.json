@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "page": "../../components/page/index",
     "card": "../../components/card/index"
   }
 }
