@@ -1,4 +1,4 @@
-const {_Component} = require('../../base/hook');
+const {_Component} = require('../../miniapp/index');
 
 _Component({
     properties: {

@@ -10,10 +10,11 @@
   "author": "xesam",
   "license": "MIT",
   "dependencies": {
-    "@xesam/miniapp": "0.0.2",
+    "miniapp-compat": "0.0.4",
     "miniapp-hook": "0.0.2",
-    "mini-app-states-view": "0.0.2",
-    "miniapp-compat": "0.0.1"
+    "miniapp-kit": "0.0.5",
+    "miniapp-safe-area": "0.0.1",
+    "mini-app-states-view": "0.0.5"
   },
   "devDependencies": {}
 }

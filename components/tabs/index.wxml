@@ -1,0 +1,3 @@
+<view class="_page ui-class">
+    <slot></slot>
+</view>

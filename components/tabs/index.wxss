@@ -1,0 +1,4 @@
+._page {
+    min-height: 100vh;
+    background: #e4e4e4;
+}
