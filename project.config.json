@@ -38,7 +38,7 @@
         "minifyWXSS": true
     },
     "compileType": "miniprogram",
-    "libVersion": "2.2.1",
+    "libVersion": "2.2.3",
     "appid": "wx132bb522ad967270",
     "projectname": "daily-tools",
     "debugOptions": {

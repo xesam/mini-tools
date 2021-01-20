@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "page": "../../components/page/index",
+    "tabs": "../../components/tabs/index",
+    "tab": "../../components/tabs/tab/index",
     "card": "../../components/card/index"
   }
 }

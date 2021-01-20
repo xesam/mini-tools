@@ -1,12 +1,28 @@
-const {_Component} = require('../../miniapp/index');
+import {_Component as Component} from '../../miniapp/miniapp';
+import behaviors from "./behaviors";
 
-_Component({
+Component({
+    behaviors: [behaviors.parent],
+    relations: {
+        "child": {
+            type: 'child',
+            target: behaviors.child,
+            linked: function (target) {
+                console.log('linked');
+            }
+        }
+    },
     properties: {
-        title: {
-            type: String,
-            value: ''
+        options: {
+            type: Array,
+            value: []
         }
     },
     data: {},
-    methods: {}
+    methods: {
+        onTap() {
+            const children = this.getRelationNodes('child');
+            console.log(children);
+        }
+    }
 });

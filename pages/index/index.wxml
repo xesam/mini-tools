@@ -1,4 +1,12 @@
 <page>
+    <tabs options="{{tabs}}">
+        <view>额外的</view>
+        <tab title="aaaaaaaaaaaaa"/>
+    </tabs>
+    <tabs>
+        <view>额外的</view>
+        <tab title="bbbbbbbbbbbbb"/>
+    </tabs>
     <card wx:for="{{modules}}" title="{{item.title}}" wx:key="index">
         <view>
             <view wx:for="{{item.items}}" wx:for-item="mod" wx:key="text">

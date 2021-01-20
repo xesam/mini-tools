@@ -1,4 +1,3 @@
 <view class="wrapper ui-class">
-    <view>tabs</view>
-    <slot></slot>
+    <view>{{title}} tab</view>
 </view>

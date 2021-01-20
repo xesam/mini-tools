@@ -1,6 +1,6 @@
-const {_Component} = require('../../miniapp/index');
+import {_Component as Component} from '../../miniapp/miniapp';
 
-_Component({
+Component({
     properties: {
         title: {
             type: String,

@@ -1,3 +1,9 @@
-<view class="_page ui-class">
-    <slot></slot>
+<view class="wrapper ui-class">
+    <button bind:tap="onTap">tabs</button>
+    <block wx:if="{{options.length}}">
+        <tab wx:for="{{options}}" wx:key="text" title="{{item.text}}"/>
+    </block>
+    <block wx:else>
+        <slot></slot>
+    </block>
 </view>

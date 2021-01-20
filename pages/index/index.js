@@ -1,5 +1,15 @@
+import {_Page as Page} from '../../miniapp/miniapp';
+
 Page({
     data: {
+        tabs: [
+            {
+                text: 1
+            },
+            {
+                text: 2
+            }
+        ],
         modules: [
             {
                 title: '常用',
