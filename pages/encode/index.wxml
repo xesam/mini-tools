@@ -1,20 +1,23 @@
 <page>
-    <view>
-        <textarea class="input"></textarea>
+    <view class="board">
+        <textarea class="input" value="{{input}}" placeholder="请在这里输入原始内容"
+                  bindinput="onInputChanged"></textarea>
+        <view class="actions">
+            <view class="action main" data-source="input" bind:tap="onTapCopy">复制</view>
+            <view class="action secondary" data-source="input" bind:tap="onTapClear">清空</view>
+        </view>
     </view>
-    <view>
-        <radio-group bindchange="radioChange">
-            <label>
-                <radio checked="true"/>
-                <view>1</view>
-            </label>
-            <label>
-                <radio/>
-                <view>2</view>
-            </label>
-        </radio-group>
+    <view class="operation">
+        <image class="exchange" src="/assets/exchange.svg" bind:tap="onTapExchange"/>
+        <view class="function">{{currentFunc}}
+            <text class="change">更改</text>
+        </view>
     </view>
-    <view>
-        <textarea class="output"></textarea>
+    <view class="board">
+        <textarea class="output" value="{{output}}" bindinput="onOutputChanged"></textarea>
+        <view class="actions">
+            <view class="action main" data-source="output" bind:tap="onTapCopy">复制</view>
+            <view class="action secondary" data-source="output" bind:tap="onTapClear">清空</view>
+        </view>
     </view>
 </page>

@@ -21,7 +21,7 @@
     height: 200rpx;
     line-height: 200rpx;
     border-radius: 100rpx;
-    background: darkcyan;
+    background: #20B2AA;
     color: white;
     font-size: 32rpx;
     text-align: center;

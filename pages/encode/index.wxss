@@ -1,4 +1,55 @@
+.board {
+    margin: 16rpx;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: start;
+}
+
 .input, .output {
+    flex: 1;
     border: 1px solid #e4e4e4;
     background: white;
+    padding: 12rpx;
+    font-size: 28rpx;
+}
+
+.board .actions {
+}
+
+.board .action {
+    padding: 12rpx 24rpx;
+    text-align: center;
+    font-size: 28rpx;
+}
+
+.action.main {
+    color: #20B2AA;
+}
+
+.action.secondary {
+    color: #999;
+}
+
+.operation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 16rpx;
+    font-size: 0;
+    justify-content: space-between;
+}
+
+.exchange {
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.function {
+    font-size: 32rpx;
+    color: #666;
+}
+
+.function .change {
+    font-size: 24rpx;
+    color: #20B2AA;
 }
