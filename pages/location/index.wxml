@@ -1,9 +1,25 @@
 <page ui-class="page">
     <view class="content">
-        <map class="map" subkey="UZ3BZ-KKZK6-7QQSS-MU3JS-ETKYE-ALBJH"/>
+        <map class="map"
+             id="map"
+             subkey="UZ3BZ-KKZK6-7QQSS-MU3JS-ETKYE-ALBJH"
+             show-location="true"
+             bindregionchange="onRegionChanged"/>
+        <cover-view>
+
+        </cover-view>
     </view>
-    <view class="actions">
-        <button class="act_copy" bind:tap="onTapCopy">复制内容</button>
-        <button class="act_scan" bind:tap="onTapSync">更新位置</button>
+    <view class="board">
+        <view>
+            <view class="action sync" bind:tap="onTapSync">我的位置</view>
+        </view>
+        <view class="interactive">
+            <input class="location"
+                   value="{{targetLocation.longitude + ',' + targetLocation.latitude}}"/>
+        </view>
+        <view class="actions">
+            <view class="action move" bind:tap="onTapMove">移动位置</view>
+            <view class="action copy" bind:tap="onTapCopy">复制内容</view>
+        </view>
     </view>
 </page>

@@ -12,6 +12,20 @@
     border-radius: 4rpx;
 }
 
+.actions {
+    padding: 16rpx;
+    text-align: right;
+}
+
+.act_copy {
+    padding: 12rpx 24rpx;
+    display: inline-block;
+    background: #20B2AA;
+    color: white;
+    font-size: 28rpx;
+    border-radius: 4rpx;
+}
+
 .act_scan {
     position: fixed;
     bottom: 16rpx;
