@@ -1,0 +1,18 @@
+.items {
+    margin: 16rpx;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item {
+    display: block;
+    width: 23%;
+    padding: 24rpx 0;
+    margin-bottom: 16rpx;
+    background: white;
+    border-radius: 8rpx;
+    text-align: center;
+    font-size: 48rpx;
+}

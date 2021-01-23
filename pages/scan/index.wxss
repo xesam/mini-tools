@@ -3,7 +3,7 @@
     padding: 16rpx;
 }
 
-.scan_value{
+.scan_value {
     display: block;
     min-height: 10em;
     padding: 16rpx;
@@ -17,4 +17,12 @@
     bottom: 16rpx;
     left: 50%;
     transform: translateX(-50%);
+    width: 200rpx;
+    height: 200rpx;
+    line-height: 200rpx;
+    border-radius: 100rpx;
+    background: darkcyan;
+    color: white;
+    font-size: 32rpx;
+    text-align: center;
 }

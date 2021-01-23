@@ -3,5 +3,5 @@
         <text class="scan_value">{{content}}</text>
     </view>
     <button class="act_copy" bind:tap="onTapCopy">复制内容</button>
-    <button class="act_scan" bind:tap="onTapQr">扫一扫</button>
+    <view class="act_scan" bind:tap="onTapQr">扫一扫</view>
 </page>

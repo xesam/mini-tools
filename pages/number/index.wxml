@@ -1,5 +1,8 @@
 <view>
-    <view wx:for="{{values}}">
-        <text>{{item}}</text>
+    <view class="items">
+        <text class="item" wx:for="{{values}}" wx:key="index">{{item}}</text>
+    </view>
+    <view class="items">
+        <text class="item" wx:for="{{units}}" wx:key="index">{{item}}</text>
     </view>
 </view>
