@@ -1,15 +1,8 @@
 import {_Page as Page} from '../../miniapp/miniapp';
 
+const app = getApp();
 Page({
     data: {
-        tabs: [
-            {
-                text: 1
-            },
-            {
-                text: 2
-            }
-        ],
         modules: [
             {
                 title: '常用',
@@ -17,12 +10,17 @@ Page({
                     {
                         text: '扫一扫',
                         icon: '',
-                        path: ''
+                        name: 'scan'
                     },
                     {
                         text: '坐标',
                         icon: '',
-                        path: ''
+                        name: 'location'
+                    },
+                    {
+                        text: '编码&反编码',
+                        icon: '',
+                        name: 'encode'
                     }
                 ]
             },
@@ -32,12 +30,12 @@ Page({
                     {
                         text: '大写数字',
                         icon: '',
-                        path: ''
+                        name: 'number'
                     },
                     {
                         text: '单位换算',
                         icon: '',
-                        path: ''
+                        name: 'unit'
                     }
                 ]
             }
@@ -46,9 +44,11 @@ Page({
     onLoad(query) {
 
     },
-    onTapQr(e) {
-        wx.navigateTo({
-            url: '/pages/scan/index'
+    onTap(e) {
+        console.log(e.target.dataset);
+        const {name} = e.target.dataset;
+        app.$router.push({
+            name
         });
     }
 });

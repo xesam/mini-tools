@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/scan/index",
     "pages/location/index",
+    "pages/encode/index",
     "pages/unit/index",
     "pages/number/index"
   ],

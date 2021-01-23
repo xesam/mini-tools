@@ -14,7 +14,8 @@
     "miniapp-hook": "0.0.2",
     "miniapp-kit": "0.0.5",
     "miniapp-safe-area": "0.0.1",
-    "mini-app-states-view": "0.0.5"
+    "mini-app-states-view": "0.0.5",
+    "miniapp-router": "git+ssh://git@github.com:xesam/miniapp-router.git"
   },
   "devDependencies": {}
 }

@@ -1,0 +1,20 @@
+.content {
+    margin: 0 auto;
+    padding: 16rpx;
+}
+
+.scan_value{
+    display: block;
+    min-height: 10em;
+    padding: 16rpx;
+    word-wrap: break-word;
+    background: white;
+    border-radius: 4rpx;
+}
+
+.act_scan {
+    position: fixed;
+    bottom: 16rpx;
+    left: 50%;
+    transform: translateX(-50%);
+}

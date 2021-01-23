@@ -1,17 +1,19 @@
 <page>
-    <tabs options="{{tabs}}">
-        <view>额外的</view>
-        <tab title="aaaaaaaaaaaaa"/>
-    </tabs>
-    <tabs>
-        <view>额外的</view>
-        <tab title="bbbbbbbbbbbbb"/>
-    </tabs>
-    <card wx:for="{{modules}}" title="{{item.title}}" wx:key="index">
-        <view>
-            <view wx:for="{{item.items}}" wx:for-item="mod" wx:key="text">
+    <!--    <tabs key="a">-->
+    <!--        <tab key="a" title="outer1"/>-->
+    <!--        <tab key="b" title="outer2"/>-->
+    <!--    </tabs>-->
+    <view class="panel" wx:for="{{modules}}" wx:key="index">
+        <view class="header">{{item.title}}</view>
+        <view class="body">
+            <view class="nav-item"
+                  wx:for="{{item.items}}"
+                  wx:for-item="mod"
+                  wx:key="text"
+                  data-name="{{mod.name}}"
+                  bind:tap="onTap">
                 {{mod.text}}
             </view>
         </view>
-    </card>
+    </view>
 </page>

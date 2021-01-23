@@ -1,0 +1,14 @@
+.panel .header{
+    padding: 24rpx;
+    font-size: 24rpx;
+}
+
+.body {
+    background: #fff;
+    font-size: 32rpx;
+}
+
+.nav-item {
+    border-top: 1rpx solid #f7f7f7;
+    padding: 24rpx;
+}

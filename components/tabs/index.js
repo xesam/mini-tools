@@ -7,22 +7,29 @@ Component({
         "child": {
             type: 'child',
             target: behaviors.child,
-            linked: function (target) {
-                console.log('linked');
+            linked(child) {
+                console.log('linked child');
+                child.setData({
+                    activeKey: this.data.key
+                });
             }
         }
     },
     properties: {
-        options: {
-            type: Array,
-            value: []
+        key: {
+            type: String,
+            value: ''
         }
     },
     data: {},
     methods: {
-        onTap() {
+        setActive(data) {
             const children = this.getRelationNodes('child');
-            console.log(children);
+            for (const child of children) {
+                child.setData({
+                    activeKey: data.key
+                });
+            }
         }
     }
 });

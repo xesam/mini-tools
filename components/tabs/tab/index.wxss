@@ -1,4 +1,8 @@
-._page {
-    min-height: 100vh;
-    background: #e4e4e4;
+.wrapper{
+    flex: 1;
+    border: 1px solid red;
+}
+
+.active {
+    color: red;
 }
