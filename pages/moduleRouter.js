@@ -1,11 +1,5 @@
 const Router = require('miniapp-router');
 
-const router = new Router('/pages/', [
-    'scan',
-    'location',
-    'encode',
-    'number',
-    'unit',
-]);
+const router = new Router('/pages/');
 
 export default router;
