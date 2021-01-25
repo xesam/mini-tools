@@ -1,21 +1,51 @@
 <page ui-class="page">
-    <view>
-        <view></view>
-        <input/>
-        <view class="copy">复制</view>
+    <view class="panel">
+        <view class="header">
+            <text class="title">我的位置</text>
+            <view class="actions">
+                <text>更新时间：2021.01.01 12:12:12</text>
+                <image class="action" src="/assets/refresh.svg"/>
+            </view>
+        </view>
+        <view class="body">
+            <view class="copiable location">
+                <view>坐标系：WGS84</view>
+                <view>
+                    <text>经纬度：12.12 , 12.12</text>
+                    <text class="copy">复制</text>
+                </view>
+            </view>
+            <view class="copiable location">
+                <view>坐标系：GCJ02</view>
+                <view>
+                    <text>经纬度：12.12 , 12.12</text>
+                    <text class="copy">复制</text>
+                </view>
+            </view>
+        </view>
+        <view class="footer">复制全部</view>
     </view>
-    <view>
-        <view></view>
-        <input/>
-        <view class="copy">复制</view>
-    </view>
-    <view>刷新</view>
-    <view>
-        搜索
-    </view>
-    <view>
-        <view>这里是地址描述</view>
-        <input/>
-        <view class="copy">复制</view>
+    <view class="panel">
+        <view class="header">
+            <text class="title">搜索位置</text>
+            <view class="actions">
+                <image class="action" src="/assets/search.svg"/>
+            </view>
+        </view>
+        <view class="body">
+            <view class="copiable address">
+                <text>地址地址地址地址地址地址地址地址地址地址地址地址地址地址地址地址地址</text>
+                <text class="copy">复制</text>
+            </view>
+
+            <view class="copiable location">
+                <view>坐标系：GCJ02</view>
+                <view>
+                    <text>经纬度：12.12 , 12.12</text>
+                    <text class="copy">复制</text>
+                </view>
+            </view>
+        </view>
+        <view class="footer">复制全部</view>
     </view>
 </page>

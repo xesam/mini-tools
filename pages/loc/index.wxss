@@ -1,0 +1,50 @@
+.panel {
+    margin: 0 16rpx;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 24rpx;
+    font-size: 24rpx;
+}
+
+.header .title {
+    font-size: 28rpx;
+}
+
+.header .actions {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header .action {
+    width: 48rpx;
+    height: 48rpx;
+    margin-left: 16rpx;
+}
+
+.body {
+    padding: 16rpx 0;
+    background: white;
+    font-size: 24rpx;
+    color: #666;
+}
+
+.copiable {
+    padding: 12rpx 24rpx;
+}
+
+.copiable .copy {
+    margin-left: 16rpx;
+    color: #20B2AA;
+}
+
+.footer {
+    padding: 24rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #20B2AA;
+}
