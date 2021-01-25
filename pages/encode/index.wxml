@@ -14,7 +14,7 @@
     <view class="operation">
         <image class="exchange" src="/assets/exchange.svg" bind:tap="onTapExchange"/>
         <view class="function">{{currentFunc}}
-            <text class="change">更改</text>
+            <text class="change" bind:tap="onTapChangeFunc">更改</text>
         </view>
     </view>
     <view class="board">

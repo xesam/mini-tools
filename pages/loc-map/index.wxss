@@ -4,8 +4,8 @@
     flex-direction: column;
 }
 
-.content {
-    flex: 1;
+.map-content {
+    position: relative;
 }
 
 .map {
@@ -14,29 +14,45 @@
     height: 100vh;
 }
 
+.map-content .pin {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -32rpx;
+    width: 64rpx;
+    height: 64rpx;
+}
+
 .board {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: white;
 }
 
-.sync{
-    padding: 24rpx 0;
-    text-align: center;
+.board .content {
+    margin: 24rpx;
+    background: white;
+    box-shadow: 0 2rpx 20rpx #999;
+    border-radius: 8rpx;
+    color: #666;
+}
+
+.board .my-loc {
+    width: 96rpx;
+    height: 96rpx;
+    top: -96rpx;
+    right: 16rpx;
+    position: absolute;
 }
 
 .interactive {
     display: flex;
 }
 
-.interactive .location {
-    flex: 1;
-    border: 1rpx solid #e4e4e4;
-}
-
-.interactive .move {
-
+.content .location {
+    padding: 24rpx 16rpx;
+    border-bottom: 1rpx solid #e4e4e4;
+    font-size: 28rpx;
 }
 
 .actions {
@@ -47,12 +63,13 @@
     flex: 1;
     padding: 24rpx 0;
     text-align: center;
+    font-size: 32rpx;
 }
 
-.action.move{
+.action.move {
     color: #333;
 }
 
-.action.copy{
+.action.copy {
     color: #20B2AA;
 }

@@ -1,5 +1,5 @@
 .panel {
-    margin: 0 16rpx;
+    margin: 0 16rpx 60rpx;
 }
 
 .header {
@@ -20,6 +20,10 @@
     justify-content: flex-end;
 }
 
+.actions .text {
+    color: #999;
+}
+
 .header .action {
     width: 48rpx;
     height: 48rpx;
@@ -29,7 +33,7 @@
 .body {
     padding: 16rpx 0;
     background: white;
-    font-size: 24rpx;
+    font-size: 28rpx;
     color: #666;
 }
 
@@ -44,7 +48,12 @@
 
 .footer {
     padding: 24rpx;
-    text-align: center;
+    text-align: right;
     font-size: 28rpx;
     color: #20B2AA;
+}
+
+.toSearch {
+    padding: 24rpx 0;
+    text-align: center;
 }

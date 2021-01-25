@@ -47,8 +47,8 @@
 }
 
 .exchange {
-    width: 160rpx;
-    height: 160rpx;
+    width: 128rpx;
+    height: 128rpx;
 }
 
 .function {

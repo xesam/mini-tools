@@ -1,25 +1,24 @@
 <page ui-class="page">
-    <view class="content">
+    <view class="map-content">
         <map class="map"
              id="map"
              subkey="UZ3BZ-KKZK6-7QQSS-MU3JS-ETKYE-ALBJH"
              show-location="true"
+             bindupdated="onMapUpdated"
              bindregionchange="onRegionChanged"/>
-        <cover-view>
-
-        </cover-view>
+        <image class="pin" src="/assets/pin.svg"/>
     </view>
     <view class="board">
-        <view>
-            <view class="action sync" bind:tap="onTapSync">我的位置</view>
-        </view>
-        <view class="interactive">
+        <image class="my-loc" src="/assets/loc.svg" bind:tap="onTapSync"/>
+        <view class="content">
             <input class="location"
-                   value="{{targetLocation.longitude + ',' + targetLocation.latitude}}"/>
-        </view>
-        <view class="actions">
-            <view class="action move" bind:tap="onTapMove">移动位置</view>
-            <view class="action copy" bind:tap="onTapCopy">复制内容</view>
+                   placeholder="经度,纬度"
+                   value="{{targetLocation ? (targetLocation.longitude + ',' + targetLocation.latitude) : ''}}"
+                   bindinput="onLocationChanged"/>
+            <view class="actions">
+                <view class="action move" bind:tap="onTapMove">移动位置</view>
+                <view class="action copy" bind:tap="onTapCopy">复制坐标</view>
+            </view>
         </view>
     </view>
 </page>
