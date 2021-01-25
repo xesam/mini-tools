@@ -12,7 +12,8 @@
                   wx:key="text"
                   data-name="{{mod.name}}"
                   bind:tap="onTap">
-                {{mod.text}}
+                <text class="title">{{mod.text}}</text>
+                <text class="intro">{{mod.introduce}}</text>
             </view>
         </view>
     </view>

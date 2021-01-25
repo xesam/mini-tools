@@ -12,3 +12,17 @@
     border-top: 1rpx solid #f7f7f7;
     padding: 24rpx;
 }
+
+.nav-item .title{
+    display: block;
+    font-size: 32rpx;
+    color: #333;
+}
+
+.nav-item .intro{
+    margin-top: 4rpx;
+    display: block;
+    font-size: 24rpx;
+    color: #999;
+}
+

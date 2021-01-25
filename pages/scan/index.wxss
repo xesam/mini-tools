@@ -13,7 +13,7 @@
 }
 
 .actions {
-    padding: 16rpx;
+    padding: 0 16rpx;
     text-align: right;
 }
 

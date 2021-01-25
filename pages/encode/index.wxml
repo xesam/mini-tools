@@ -1,10 +1,14 @@
 <page>
     <view class="board">
-        <textarea class="input" value="{{input}}" placeholder="请在这里输入原始内容"
-                  bindinput="onInputChanged"></textarea>
-        <view class="actions">
-            <view class="action secondary" data-source="input" bind:tap="onTapClear">清空</view>
-            <view class="action main" data-source="input" bind:tap="onTapCopy">复制</view>
+        <view class="area-wrapper">
+            <textarea class="input" value="{{input}}"
+                      maxlength="-1"
+                      placeholder="请在这里输入原始内容"
+                      bindinput="onInputChanged"></textarea>
+            <view class="actions">
+                <view class="action secondary" data-source="input" bind:tap="onTapClear">清空</view>
+                <view class="action main" data-source="input" bind:tap="onTapCopy">复制</view>
+            </view>
         </view>
     </view>
     <view class="operation">
@@ -14,10 +18,13 @@
         </view>
     </view>
     <view class="board">
-        <textarea class="output" value="{{output}}" bindinput="onOutputChanged"></textarea>
-        <view class="actions">
-            <view class="action secondary" data-source="output" bind:tap="onTapClear">清空</view>
-            <view class="action main" data-source="output" bind:tap="onTapCopy">复制</view>
+        <view class="area-wrapper">
+            <textarea class="output" value="{{output}}"
+                      maxlength="-1" bindinput="onOutputChanged"></textarea>
+            <view class="actions">
+                <view class="action secondary" data-source="output" bind:tap="onTapClear">清空</view>
+                <view class="action main" data-source="output" bind:tap="onTapCopy">复制</view>
+            </view>
         </view>
     </view>
 </page>

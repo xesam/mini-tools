@@ -10,17 +10,26 @@ Page({
                     {
                         text: '扫一扫',
                         icon: '',
-                        name: 'scan'
+                        name: 'scan',
+                        introduce: '二维码、条形码内容读取'
                     },
                     {
                         text: '坐标',
                         icon: '',
-                        name: 'location'
+                        name: 'location',
+                        introduce: '查看我的位置坐标、搜索地点的位置坐标'
                     },
                     {
-                        text: '编码&反编码',
+                        text: '地图坐标',
                         icon: '',
-                        name: 'encode'
+                        name: 'location',
+                        introduce: '通过地图查看坐标'
+                    },
+                    {
+                        text: '编码&解码',
+                        icon: '',
+                        name: 'encode',
+                        introduce: '文本、网址的编码与解码'
                     }
                 ]
             },
@@ -45,8 +54,7 @@ Page({
 
     },
     onTap(e) {
-        console.log(e.target.dataset);
-        const {name} = e.target.dataset;
+        const {name} = e.currentTarget.dataset;
         app.$router.push({
             name
         });

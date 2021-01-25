@@ -1,13 +1,17 @@
 .board {
-    margin: 0 16rpx;
     padding: 16rpx;
+}
+
+.area-wrapper {
+    position: relative;
+    border: 1rpx solid #e4e4e4;
+    background: white;
 }
 
 .input, .output {
     box-sizing: border-box;
     width: 100%;
-    border: 1rpx solid #e4e4e4;
-    background: white;
+    border: none;
     padding: 12rpx;
     font-size: 28rpx;
 }
@@ -16,7 +20,6 @@
     display: flex;
     align-items: end;
     justify-content: flex-end;
-    padding: 12rpx 0;
 }
 
 .board .action {
@@ -49,7 +52,7 @@
 }
 
 .function {
-    padding: 12rpx;
+    margin-top: 12rpx;
     font-size: 32rpx;
     color: #666;
 }
