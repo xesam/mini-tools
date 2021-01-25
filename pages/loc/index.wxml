@@ -1,0 +1,21 @@
+<page ui-class="page">
+    <view>
+        <view></view>
+        <input/>
+        <view class="copy">复制</view>
+    </view>
+    <view>
+        <view></view>
+        <input/>
+        <view class="copy">复制</view>
+    </view>
+    <view>刷新</view>
+    <view>
+        搜索
+    </view>
+    <view>
+        <view>这里是地址描述</view>
+        <input/>
+        <view class="copy">复制</view>
+    </view>
+</page>

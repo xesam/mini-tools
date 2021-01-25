@@ -16,13 +16,13 @@ Page({
                     {
                         text: '坐标',
                         icon: '',
-                        name: 'location',
+                        name: 'loc',
                         introduce: '查看我的位置坐标、搜索地点的位置坐标'
                     },
                     {
                         text: '地图坐标',
                         icon: '',
-                        name: 'location',
+                        name: 'loc-map',
                         introduce: '通过地图查看坐标'
                     },
                     {
@@ -39,12 +39,14 @@ Page({
                     {
                         text: '大写数字',
                         icon: '',
-                        name: 'number'
+                        name: 'number',
+                        introduce: '数字大写、数字单位'
                     },
                     {
                         text: '单位换算',
                         icon: '',
-                        name: 'unit'
+                        name: 'unit',
+                        introduce: '长度、体积、重量基本单位以及转换'
                     }
                 ]
             }

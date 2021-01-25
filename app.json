@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/scan/index",
-    "pages/location/index",
+    "pages/loc/index",
+    "pages/loc-map/index",
     "pages/encode/index",
     "pages/unit/index",
     "pages/number/index"
