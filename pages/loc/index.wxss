@@ -24,10 +24,35 @@
     color: #999;
 }
 
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(45deg);
+    }
+    40% {
+        transform: rotate(90deg);
+    }
+    60% {
+        transform: rotate(180deg);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .header .action {
     width: 48rpx;
     height: 48rpx;
     margin-left: 16rpx;
+}
+
+.header .loading {
+    animation: loading 1s linear infinite;
 }
 
 .body {

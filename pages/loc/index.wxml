@@ -4,7 +4,7 @@
             <text class="title">我的位置</text>
             <view class="actions">
                 <text class="text" wx:if="{{date}}">{{date}} 更新</text>
-                <image class="action" src="/assets/refresh.svg"
+                <image class="action {{loading ? 'loading' : ''}}" src="/assets/refresh.svg"
                        bind:tap="onTapRefresh"/>
             </view>
         </view>
@@ -13,18 +13,18 @@
                 <view>坐标系：WGS84</view>
                 <view wx:if="{{myWgsLocation}}">
                     <text>经纬度：{{myWgsLocation.longitude}} , {{myWgsLocation.latitude}}</text>
-                    <text class="copy">复制</text>
+                    <text class="copy" bind:tap="onTapCopy" data-target="my-wgs">复制</text>
                 </view>
             </view>
             <view class="copiable location">
                 <view>坐标系：GCJ02</view>
-                <view wx:if="{{myWgsLocation}}">
+                <view wx:if="{{myGcjLocation}}">
                     <text>经纬度：{{myGcjLocation.longitude}} , {{myGcjLocation.latitude}}</text>
-                    <text class="copy">复制</text>
+                    <text class="copy" bind:tap="onTapCopy" data-target="my-gcj">复制</text>
                 </view>
             </view>
         </view>
-        <view class="footer">复制全部</view>
+        <!--        <view class="footer">复制全部</view>-->
     </view>
     <view class="panel">
         <view class="header">
@@ -37,18 +37,18 @@
             <view class="body">
                 <view class="copiable address">
                     <text>{{searchLocation.address}}</text>
-                    <text class="copy">复制</text>
+                    <text class="copy" bind:tap="onTapCopy" data-target="search-address">复制</text>
                 </view>
 
                 <view class="copiable location">
                     <view>坐标系：GCJ02</view>
                     <view>
                         <text>经纬度：{{searchLocation.longitude}} , {{searchLocation.latitude}}</text>
-                        <text class="copy">复制</text>
+                        <text class="copy" bind:tap="onTapCopy" data-target="search-location">复制</text>
                     </view>
                 </view>
             </view>
-            <view class="footer">复制全部</view>
+            <!--            <view class="footer">复制全部</view>-->
         </block>
         <view wx:else class="body">
             <view class="toSearch" bind:tap="onTapChoose">去搜索</view>
