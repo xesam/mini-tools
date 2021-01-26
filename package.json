@@ -1,11 +1,11 @@
 {
-  "name": "daily-tools",
+  "name": "atm-tools",
   "version": "0.0.1",
-  "description": "mini app",
+  "description": "miniapp tools",
   "main": "index.js",
   "scripts": {},
   "keywords": [
-    "miniapp"
+    "miniapp tools"
   ],
   "author": "xesam",
   "license": "MIT",
