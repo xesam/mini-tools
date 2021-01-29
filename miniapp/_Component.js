@@ -15,5 +15,4 @@ function _Component(options) {
     }
     Component(options);
 }
-
-exports._Component = _Component;
+module.exports = _Component;

@@ -1,14 +1,15 @@
-function _App() {
-    return App(...arguments);
-}
+const hook = require('miniapp-hook');
+const MyComponent = require('./_Component');
 
-function _Page() {
-    return Page(...arguments);
-}
+const _App = hook._App;
+const _Page = hook._Page;
+const _Component = hook._Component.create(MyComponent);
 
-function _Component() {
-    return Component(...arguments);
-}
+_Page.use({
+    onShareAppMessage(options) {
+
+    }
+});
 
 export {
     _App,
