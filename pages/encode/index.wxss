@@ -29,8 +29,7 @@
 }
 
 .action.main {
-    background: #20B2AA;
-    color: white;
+    color: #20B2AA;
 }
 
 .action.secondary {

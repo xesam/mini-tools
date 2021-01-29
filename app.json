@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/me/index",
     "pages/scan/index",
     "pages/loc/index",
     "pages/loc-map/index",
@@ -13,6 +14,24 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "奥特曼的工具箱",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#20B2AA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tab-index-normal.png",
+        "selectedIconPath": "/assets/tab-index-selected.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我",
+        "iconPath": "/assets/tab-me-normal.png",
+        "selectedIconPath": "/assets/tab-me-selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",

@@ -1,3 +1,9 @@
+.panel{
+    margin: 0 16rpx;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+
 .panel .header {
     padding: 24rpx;
     font-size: 24rpx;

@@ -1,0 +1,28 @@
+<page>
+    <view class="logos">
+        <image class="logo" src="/assets/logo.jpg"></image>
+    </view>
+    <view class="panel">
+        <button open-type="feedback" class="btn">
+            <view class="item">
+                <image class="icon" src="/assets/feedback.svg"></image>
+                <view class="content">
+                    <text class="main">建议与反馈</text>
+                </view>
+                <view class="meta">
+
+                </view>
+            </view>
+        </button>
+        <view class="item">
+            <image class="icon" src="/assets/about.svg"></image>
+            <view class="content">
+                <text class="main">关于</text>
+            </view>
+            <view class="meta">
+                {{version}}
+            </view>
+        </view>
+
+    </view>
+</page>

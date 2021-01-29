@@ -1,0 +1,49 @@
+.logos {
+    padding: 44rpx;
+    text-align: center;
+}
+
+.logo {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 80rpx;
+}
+
+.panel{
+    margin: 0 16rpx;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+
+.btn {
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.item {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 24rpx;
+    background: #fff;
+    font-weight: normal;
+}
+
+.item .icon {
+    width: 48rpx;
+    height: 48rpx;
+    margin-right: 24rpx;
+}
+
+.item .content {
+    flex: 1;
+    font-size: 32rpx;
+    color: #333;
+}
+
+.item .meta {
+    font-size: 28rpx;
+    color: #666;
+}
