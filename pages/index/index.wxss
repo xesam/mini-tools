@@ -1,4 +1,4 @@
-.panel .header{
+.panel .header {
     padding: 24rpx;
     font-size: 24rpx;
 }
@@ -9,17 +9,25 @@
 }
 
 .nav-item {
+    display: flex;
+    align-items: center;
     border-top: 1rpx solid #f7f7f7;
     padding: 24rpx;
 }
 
-.nav-item .title{
+.nav-item .icon {
+    width: 48rpx;
+    height: 48rpx;
+    margin-right: 24rpx;
+}
+
+.nav-item .title {
     display: block;
     font-size: 32rpx;
     color: #333;
 }
 
-.nav-item .intro{
+.nav-item .intro {
     margin-top: 4rpx;
     display: block;
     font-size: 24rpx;

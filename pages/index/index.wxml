@@ -1,8 +1,4 @@
 <page>
-    <!--    <tabs key="a">-->
-    <!--        <tab key="a" title="outer1"/>-->
-    <!--        <tab key="b" title="outer2"/>-->
-    <!--    </tabs>-->
     <view class="panel" wx:for="{{modules}}" wx:key="index">
         <view class="header">{{item.title}}</view>
         <view class="body">
@@ -12,8 +8,11 @@
                   wx:key="text"
                   data-name="{{mod.name}}"
                   bind:tap="onTap">
-                <text class="title">{{mod.text}}</text>
-                <text class="intro">{{mod.introduce}}</text>
+                <image class="icon" src="{{mod.icon}}"/>
+                <view>
+                    <text class="title">{{mod.text}}</text>
+                    <text class="intro">{{mod.introduce}}</text>
+                </view>
             </view>
         </view>
     </view>

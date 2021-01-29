@@ -9,7 +9,7 @@
         <image class="pin" src="/assets/pin.svg"/>
     </view>
     <view class="board">
-        <image class="my-loc" src="/assets/loc.svg" bind:tap="onTapSync"/>
+        <image class="my-loc" src="/assets/map-loc.svg" bind:tap="onTapSync"/>
         <view class="content">
             <input class="location"
                    placeholder="经度,纬度"

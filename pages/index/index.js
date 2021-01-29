@@ -9,25 +9,25 @@ Page({
                 items: [
                     {
                         text: '扫一扫',
-                        icon: '',
+                        icon: '/assets/scan.svg',
                         name: 'scan',
                         introduce: '二维码、条形码内容读取'
                     },
                     {
                         text: '查看坐标',
-                        icon: '',
+                        icon: '/assets/loc.svg',
                         name: 'loc',
                         introduce: '查看我的位置坐标、搜索地点的位置坐标'
                     },
                     {
                         text: '地图选点',
-                        icon: '',
+                        icon: '/assets/map.svg',
                         name: 'loc-map',
                         introduce: '通过地图查看坐标'
                     },
                     {
                         text: '编码&解码',
-                        icon: '',
+                        icon: '/assets/code.svg',
                         name: 'encode',
                         introduce: '文本、网址的编码与解码'
                     }
@@ -38,7 +38,7 @@ Page({
                 items: [
                     {
                         text: '大写数字',
-                        icon: '',
+                        icon: '/assets/number.svg',
                         name: 'number',
                         introduce: '数字大写、数字单位'
                     },
