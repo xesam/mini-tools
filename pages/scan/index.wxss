@@ -1,34 +1,37 @@
-.content {
-    margin: 0 auto;
-    padding: 16rpx;
+.empty{
+    display: block;
+    text-align: center;
+    color: #999;
+    font-size: 40rpx;
+    padding: 100rpx 24rpx;
 }
 
-.scan_value {
-    display: block;
-    min-height: 10em;
+.panel{}
+
+.panel .header{
+    padding: 24rpx;
+    font-size: 24rpx;
+    color: #333;
+}
+
+.panel .body{
+    margin: 0 16rpx;
     padding: 16rpx;
+    font-size: 32rpx;
     word-wrap: break-word;
     background: white;
-    border-radius: 4rpx;
+    color: #666;
 }
 
-.actions {
-    padding: 0 16rpx;
-    text-align: right;
-}
-
-.act_copy {
-    padding: 12rpx 24rpx;
-    display: inline-block;
-    background: #20B2AA;
-    color: white;
+.body .copy{
+    margin-left: 16rpx;
     font-size: 28rpx;
-    border-radius: 4rpx;
+    color: #20B2AA;
 }
 
 .act_scan {
     position: fixed;
-    bottom: 16rpx;
+    bottom: 32rpx;
     left: 50%;
     transform: translateX(-50%);
     width: 200rpx;
@@ -37,6 +40,7 @@
     border-radius: 100rpx;
     background: #20B2AA;
     color: white;
-    font-size: 32rpx;
+    font-size: 36rpx;
     text-align: center;
+    box-shadow: 0 2rpx 20rpx #999;
 }

@@ -1,9 +1,31 @@
 <page>
-    <view class="content">
-        <text class="scan_value">{{content}}</text>
-    </view>
-    <view class="actions">
-        <view class="act_copy" bind:tap="onTapCopy">复制结果</view>
-    </view>
+    <text wx:if="{{!scanType}}" class="empty">
+        暂无结果\n点击下方的“扫一扫”按钮开始扫码
+    </text>
+    <block wx:else>
+        <view class="panel">
+            <view class="header">码类型</view>
+            <view class="body">{{scanType}}</view>
+        </view>
+        <view class="panel" wx:if="{{charSet}}">
+            <view class="header">字符集</view>
+            <view class="body">{{charSet}}</view>
+        </view>
+        <view class="panel" wx:if="{{rawData}}">
+            <view class="header">原始Base64</view>
+            <view class="body">{{rawData}}</view>
+        </view>
+        <view class="panel" wx:if="{{path}}">
+            <view class="header">path</view>
+            <view class="body">{{path}}</view>
+        </view>
+        <view class="panel" wx:if="{{result}}">
+            <view class="header">结果</view>
+            <view class="body">
+                <text>{{result}}</text>
+                <text class="copy" bind:tap="onTapCopy">复制</text>
+            </view>
+        </view>
+    </block>
     <view class="act_scan" bind:tap="onTapQr">扫一扫</view>
 </page>
