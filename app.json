@@ -6,13 +6,14 @@
     "pages/loc/index",
     "pages/loc-map/index",
     "pages/encode/index",
+    "pages/color/index",
     "pages/unit/index",
     "pages/number/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "奥特曼的工具箱",
+    "navigationBarTitleText": "打工人Pro",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

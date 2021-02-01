@@ -42,7 +42,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.2.3",
   "appid": "wx132bb522ad967270",
-  "projectname": "%E5%A5%A5%E7%89%B9%E6%9B%BC%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1",
+  "projectname": "打工人Pro",
   "debugOptions": {
     "hidedInDevtools": []
   },

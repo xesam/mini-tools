@@ -30,6 +30,12 @@ Page({
                         icon: '/assets/code.svg',
                         name: 'encode',
                         introduce: '文本、网址的编码与解码'
+                    },
+                    {
+                        text: '颜色',
+                        icon: '/assets/code.svg',
+                        name: 'color',
+                        introduce: '颜色的转换与显示'
                     }
                 ]
             },
@@ -53,7 +59,7 @@ Page({
         ]
     },
     onLoad(query) {
-
+        // dispatch(query);
     },
     onTap(e) {
         const {name} = e.currentTarget.dataset;
