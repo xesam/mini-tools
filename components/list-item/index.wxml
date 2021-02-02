@@ -1,0 +1,13 @@
+<view class="wrapper ui-class" bind:tap="onTap">
+    <image wx:if="{{icon}}" class="icon" src="{{icon}}"/>
+    <slot wx:else name="icon"></slot>
+    <view class="body">
+        <text wx:if="{{title}}" class="title">{{title}}</text>
+        <text wx:if="{{describe}}" class="describe">{{describe}}</text>
+        <slot wx:else></slot>
+    </view>
+    <view class="value">
+        <block wx:if="{{value}}">{{value}}</block>
+        <slot wx:else name="value"></slot>
+    </view>
+</view>

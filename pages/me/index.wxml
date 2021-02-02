@@ -4,25 +4,13 @@
     </view>
     <view class="panel">
         <button open-type="feedback" class="btn">
-            <view class="item">
-                <image class="icon" src="/assets/feedback.svg"></image>
-                <view class="content">
-                    <text class="main">建议与反馈</text>
-                </view>
-                <view class="meta">
-
-                </view>
-            </view>
+            <list-item
+                    icon="/assets/feedback.svg"
+                    title="建议与反馈"/>
         </button>
-        <view class="item">
-            <image class="icon" src="/assets/about.svg"></image>
-            <view class="content">
-                <text class="main">关于</text>
-            </view>
-            <view class="meta">
-                {{version}}
-            </view>
-        </view>
-
+        <list-item
+                icon="/assets/about.svg"
+                title="关于"
+                value="{{version}}"/>
     </view>
 </page>
