@@ -18,7 +18,7 @@ const handlers = {
     },
     [decodeURI.name]: {
         handle(data) {
-            return encodeURIComponent(data);
+            return decodeURI(data);
         }
     },
 };
