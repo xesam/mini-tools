@@ -1,7 +1,7 @@
 <page>
     <view class="input-item">
         <label class="label">十六进制：</label>
-        <input class="input" type="text"/>
+        <input class="input" type="text" bindinput="onHexChanged"/>
         <view class="action">复制</view>
     </view>
     <view class="input-item">
@@ -10,6 +10,6 @@
         <view class="action">复制</view>
     </view>
     <view class="preview-section">
-        <view class="preview" style="background: #ff5500;"></view>
+        <view class="preview" style="background: #{{hex}};"></view>
     </view>
 </page>
