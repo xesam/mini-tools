@@ -1,8 +1,40 @@
+.fg-panel, .bg-panel {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100wh;
+    height: 100vh;
+}
+
+.indicator {
+    padding: 24rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #666;
+}
+
+.indicator .action {
+    color: #20B2AA;
+}
+
+.board {
+    position: fixed;
+    left: 16rpx;
+    right: 16rpx;
+    top: 32rpx;
+    padding: 24rpx;
+    border-radius: 8rpx;
+    box-shadow: 0 2rpx 20rpx #ccc;
+    background: #fff;
+}
+
 .input-item {
     display: flex;
     align-items: center;
     font-size: 28rpx;
-    padding: 0 16rpx;
+    padding: 16rpx;
 }
 
 .input-item .label {
@@ -24,8 +56,14 @@
     text-align: center;
 }
 
-.preview {
-    display: inline-block;
-    width: 350rpx;
-    height: 350rpx;
+.radios {
+    padding-top: 24rpx;
+    display: flex;
+    align-items: center;
+    font-size: 24rpx;
+}
+
+.radios .radio-label {
+    flex: 1;
+    text-align: center;
 }

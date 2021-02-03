@@ -73,6 +73,12 @@
           "pathName": "pages/loc-map/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "color",
+          "pathName": "pages/color/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

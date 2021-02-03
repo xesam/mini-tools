@@ -1,15 +1,34 @@
 <page>
-    <view class="input-item">
-        <label class="label">十六进制：</label>
-        <input class="input" type="text" bindinput="onHexChanged"/>
-        <view class="action">复制</view>
-    </view>
-    <view class="input-item">
-        <label class="label">RGBA：</label>
-        <input class="input" type="text"/>
-        <view class="action">复制</view>
-    </view>
-    <view class="preview-section">
-        <view class="preview" style="background: #{{hex}};"></view>
+    <view class="bg-panel" style="background: {{bgColor}};"></view>
+    <view class="fg-panel" style="background: {{fullHex}};"></view>
+    <view class="board">
+        <view class="input-item">
+            <label class="label">十六进制：#</label>
+            <input class="input" type="text" maxlength="8" bindinput="onHexChanged"/>
+        </view>
+        <radio-group class="radios" bindchange="onBgChanged">
+            <label class="radio-label" for="white">
+                <radio id="white" value="white" checked/>
+                <text>白色底色</text>
+            </label>
+            <label class="radio-label" for="black">
+                <radio id="black" value="black"/>
+                <text>黑色底色</text>
+            </label>
+        </radio-group>
+        <view class="indicator">
+            <block wx:if="{{fullHex.length !== 9}}">
+                无效色值
+            </block>
+            <block wx:else>
+                完整色值：{{fullHex}}
+                <text class="action" bind:tap="onTapCopy">复制</text>
+            </block>
+        </view>
+        <!--        <view class="input-item">-->
+        <!--            <label class="label">RGBA：</label>-->
+        <!--            <input class="input" type="text"/>-->
+        <!--            <view class="action">复制</view>-->
+        <!--        </view>-->
     </view>
 </page>
