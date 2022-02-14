@@ -13,7 +13,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "打工人Pro",
+    "navigationBarTitleText": "打工人工具箱",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

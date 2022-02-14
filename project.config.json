@@ -44,7 +44,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.2.3",
   "appid": "wx132bb522ad967270",
-  "projectname": "%E6%89%93%E5%B7%A5%E4%BA%BAPro",
+  "projectname": "打工人工具箱",
   "debugOptions": {
     "hidedInDevtools": []
   },
