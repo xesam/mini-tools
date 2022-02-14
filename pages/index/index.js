@@ -1,6 +1,6 @@
 import {_Page as Page} from '../../miniapp/miniapp';
+import router from "../moduleRouter";
 
-const app = getApp();
 Page({
     data: {
         modules: [
@@ -63,7 +63,7 @@ Page({
     },
     onTap(e) {
         const {name} = e.currentTarget.dataset;
-        app.$router.push({
+        router.navigateTo({
             name
         });
     }

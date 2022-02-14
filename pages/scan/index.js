@@ -9,14 +9,9 @@ Page({
         rawData: ''
     },
     onLoad(query) {
-
+        this._doScan();
     },
-    onTapCopy(e) {
-        wx.setClipboardData({
-            data: this.data.result
-        });
-    },
-    onTapQr(e) {
+    _doScan() {
         wx.scanCode({
             // scanType: ['barCode', 'qrCode', 'datamatrix', 'pdf417'], //真机表现有问题？？？？
             success: res => {
@@ -26,6 +21,14 @@ Page({
                     path: res.path
                 });
             }
-        })
+        });
+    },
+    onTapCopy(e) {
+        wx.setClipboardData({
+            data: this.data.result
+        });
+    },
+    onTapQr(e) {
+        this._doScan();
     }
 });
