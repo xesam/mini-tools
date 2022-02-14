@@ -11,19 +11,19 @@ Page({
                         text: '扫一扫',
                         icon: '/assets/scan.svg',
                         name: 'scan',
-                        introduce: '二维码、条形码内容读取'
+                        introduce: '提取二维码、条形码的文本内容'
                     },
                     {
                         text: '查看坐标',
                         icon: '/assets/loc.svg',
                         name: 'loc',
-                        introduce: '查看我的位置坐标、搜索地点的位置坐标'
+                        introduce: '查看我当前的坐标、查询位置坐标'
                     },
                     {
                         text: '地图选点',
                         icon: '/assets/map.svg',
                         name: 'loc-map',
-                        introduce: '通过地图查看坐标'
+                        introduce: '在地图上查看坐标'
                     },
                     {
                         text: '编码&解码',
