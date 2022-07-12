@@ -1,4 +1,4 @@
-<page>
+<page mini-class="safe-page">
     <view class="panel" wx:for="{{modules}}" wx:key="index">
         <view class="header">{{item.title}}</view>
         <view class="body">

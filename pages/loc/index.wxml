@@ -1,4 +1,4 @@
-<page ui-class="page">
+<page mini-class="page">
     <view class="panel">
         <view class="header">
             <text class="title">我的位置</text>

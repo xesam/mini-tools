@@ -1,3 +1,3 @@
-<view class="wrapper ui-class">
+<view class="wrapper mini-class">
     <slot></slot>
 </view>

@@ -10,15 +10,15 @@
   "author": "xesam",
   "license": "MIT",
   "dependencies": {
-    "miniapp-hook": "0.1.1",
+    "@mini-dev/hook": "0.1.5",
     "@mini-dev/vendor": "0.0.2",
     "@mini-dev/storage": "0.0.1",
     "@mini-dev/router": "0.0.4",
     "@mini-dev/request": "0.0.3",
     "@mini-dev/location": "0.0.1",
     "@mini-dev/states-view": "0.0.7",
-    "@mini-dev/safe-view": "0.0.1",
-    "@mini-dev/modal": "0.0.3"
+    "@mini-dev/safe-view": "0.0.2",
+    "@mini-dev/modal": "0.0.4"
   },
   "devDependencies": {}
 }

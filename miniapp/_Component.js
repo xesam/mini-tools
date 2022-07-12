@@ -2,7 +2,7 @@ function _Component(options) {
     if (!options.externalClasses) {
         options.externalClasses = []
     }
-    options.externalClasses.unshift('ui-class');
+    options.externalClasses.unshift('mini-class');
     if (!options.behaviors) {
         options.behaviors = [];
     }

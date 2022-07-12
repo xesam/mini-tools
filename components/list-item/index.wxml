@@ -1,4 +1,4 @@
-<view class="wrapper ui-class" bind:tap="onTap">
+<view class="wrapper mini-class" bind:tap="onTap">
     <image wx:if="{{icon}}" class="icon" src="{{icon}}"/>
     <slot wx:else name="icon"></slot>
     <view class="body">

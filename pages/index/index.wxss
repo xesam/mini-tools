@@ -1,42 +1,40 @@
-.panel{
+.panel {
     margin: 0 16rpx;
     border-radius: 8rpx;
     overflow: hidden;
 }
 
 .panel .header {
-    padding: 24rpx;
-    font-size: 24rpx;
+    padding: 1em;
 }
 
 .body {
     background: #fff;
-    font-size: 32rpx;
 }
 
 .nav-item {
     display: flex;
     align-items: center;
     border-top: 1rpx solid #f7f7f7;
-    padding: 24rpx;
+    padding: 1em;
 }
 
 .nav-item .icon {
     width: 48rpx;
     height: 48rpx;
-    margin-right: 24rpx;
+    margin-right: 1em;
 }
 
 .nav-item .title {
     display: block;
-    font-size: 32rpx;
+    font-size: 1.3em;
     color: #333;
 }
 
 .nav-item .intro {
-    margin-top: 4rpx;
+    margin-top: 0.3em;
     display: block;
-    font-size: 24rpx;
+    font-size: 1em;
     color: #999;
 }
 

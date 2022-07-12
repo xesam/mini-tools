@@ -1,4 +1,4 @@
-<page ui-class="page">
+<page mini-class="page">
     <view class="map-content">
         <map class="map"
              id="map"

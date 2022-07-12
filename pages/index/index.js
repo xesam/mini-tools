@@ -1,5 +1,5 @@
 import {_Page as Page} from '../../miniapp/miniapp';
-import router from "../moduleRouter";
+import router from "../router";
 
 Page({
     data: {
@@ -47,19 +47,23 @@ Page({
                         icon: '/assets/number.svg',
                         name: 'number',
                         introduce: '数字大写、数字单位'
-                    },
-                    // {
-                    //     text: '单位换算',
-                    //     icon: '',
-                    //     name: 'unit',
-                    //     introduce: '长度、体积、重量基本单位以及转换'
-                    // }
+                    }
+                ]
+            },
+            {
+                title: '程序员',
+                items: [
+                    {
+                        text: '常用进制表示',
+                        icon: '/assets/number.svg',
+                        name: 'base',
+                        introduce: '代码重常用数的不同进制表示'
+                    }
                 ]
             }
         ]
     },
     onLoad(query) {
-        // dispatch(query);
     },
     onTap(e) {
         const {name} = e.currentTarget.dataset;

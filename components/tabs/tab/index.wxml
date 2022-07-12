@@ -1,3 +1,3 @@
-<view class="wrapper ui-class {{activeKey === key ? 'active' : ''}}" bind:tap="onTap">
+<view class="wrapper mini-class {{activeKey === key ? 'active' : ''}}" bind:tap="onTap">
     {{title}} tab {{activeKey}} / {{key}}
 </view>

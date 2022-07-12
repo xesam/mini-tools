@@ -1,13 +1,12 @@
-const hook = require('miniapp-hook');
-const MyComponent = require('./_Component');
+const hook = require('@mini-dev/hook');
+const MiniComponent = require('./_Component');
 
 const _App = hook._App;
 const _Page = hook._Page;
-const _Component = hook._Component.create(MyComponent);
+const _Component = hook._Component.create(MiniComponent);
 
 _Page.use({
     onShareAppMessage(options) {
-
     }
 });
 
