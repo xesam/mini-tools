@@ -1,0 +1,8 @@
+.panel__header {
+    padding: 1em;
+}
+
+.panel__body {
+    display: block;
+    margin: 0 1em;
+}

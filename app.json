@@ -8,7 +8,8 @@
     "pages/encode/index",
     "pages/color/index",
     "pages/unit/index",
-    "pages/number/index"
+    "pages/number/index",
+    "pages/hex/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

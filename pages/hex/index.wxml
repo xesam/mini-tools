@@ -1,0 +1,6 @@
+<view class="safe-page">
+    <view class="panel__header">16进制</view>
+    <rich-text class="panel__body" type="text" nodes="{{sample1}}"></rich-text>
+    <view class="panel__header">幂次方</view>
+    <rich-text class="panel__body" type="text" nodes="{{sample2}}"></rich-text>
+</view>

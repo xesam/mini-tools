@@ -56,7 +56,7 @@ Page({
                     {
                         text: '常用进制表示',
                         icon: '/assets/number.svg',
-                        name: 'base',
+                        name: 'hex',
                         introduce: '代码重常用数的不同进制表示'
                     }
                 ]
@@ -68,7 +68,7 @@ Page({
     onTap(e) {
         const {name} = e.currentTarget.dataset;
         router.navigateTo({
-            name
+            name: name.split(',')
         });
     }
 });
