@@ -16,13 +16,13 @@ Page({
                     {
                         text: '查看坐标',
                         icon: '/assets/loc.svg',
-                        name: 'loc',
+                        name: 'location,index',
                         introduce: '查看我当前的坐标、查询位置坐标'
                     },
                     {
                         text: '地图选点',
                         icon: '/assets/map.svg',
-                        name: 'loc-map',
+                        name: 'location,map',
                         introduce: '在地图上查看坐标'
                     },
                     {

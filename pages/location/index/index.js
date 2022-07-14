@@ -1,4 +1,4 @@
-import {_Page as Page} from '../../miniapp/miniapp';
+import {_Page as Page} from '../../../miniapp/miniapp';
 
 Page({
     data: {
