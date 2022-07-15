@@ -1,6 +1,6 @@
 {
   "name": "atm-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "miniapp tools",
   "main": "index.js",
   "scripts": {},
