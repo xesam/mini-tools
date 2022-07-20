@@ -37,6 +37,8 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
+  "resizable": false,
+  "frameset": false,
   "permission": {
     "scope.userLocation": {
       "desc": "你的位置信息将用于数字坐标展示"
